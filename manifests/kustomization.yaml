@@ -10,3 +10,7 @@ spec:
   sourceRef:
     kind: GitRepository
     name: demo-spring-boot
+  images:
+    - name: demo-spring-boot
+      newName: docker.io/jish65/demo-spring-boot
+      newTag: 'latest'  # Update this tag as needed.

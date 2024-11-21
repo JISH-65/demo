@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: demo-spring-boot-service
-  namespace: default
+  namespace: default  # Update to default if that's your desired namespace
 spec:
   selector:
     app: demo-spring-boot
