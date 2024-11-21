@@ -1,9 +1,10 @@
-apiVersion: source.toolkit.fluxcd.io/v1beta2
+apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: demo-spring-boot
   namespace: flux-system
 spec:
   interval: 1m
-  url: https://github.com/JISH-65/demo
-  branch: main
+  url: https://github.com/JISH-65/demo-spring-boot
+  ref:
+    branch: main
