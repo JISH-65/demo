@@ -10,6 +10,6 @@ public class MessageController {
 
     @GetMapping("/message")
     public String getMessage() {
-        return "Hello, Welcome to Spring Boot API!";
+        return "Hello, Flux Automation!";
     }
 }
